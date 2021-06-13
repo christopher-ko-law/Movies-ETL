@@ -19,7 +19,7 @@ Notebook: ETL_clean_wiki_movies.ipynb
 Building on the previous notebook, the objective of this notebook is to extract and transform the Wikipedia data. The following occurs:
 * TV shows are removed from the wikipedia data.
 * 'imdb_id' column is extracted from the 'imdb_link' column
-* non-null coumns are kept (columns where more than 90% of the data are removed)
+* non-null columns are kept (columns where more than 90% of the data are removed)
 * box office, budget data, release date, and running time data are cleaned using regex expressions and lambda functions.
 
 ## Deliverable 3: Extract and Transform the Kaggle data
